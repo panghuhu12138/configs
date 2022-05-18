@@ -1,0 +1,13 @@
+server:
+  port: 6667
+spring:
+  cloud:
+    consul:
+      host: 106.14.63.9
+      port: 8500
+      discovery:
+        heartbeat:
+          enabled: true
+  application:
+    name: configclient
+name: zhangsan
